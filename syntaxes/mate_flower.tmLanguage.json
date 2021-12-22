@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "mate flower",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.mate_flower",
+				"match": "\\b(if|while|for|return|@)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.mate_flower",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.mate_flower",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.mate_flower"
+}

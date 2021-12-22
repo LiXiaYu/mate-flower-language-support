@@ -1,0 +1,26 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "semanticHighlighting": true,
+    "tokenColors":[
+        {
+            "scope": "keyword.control.mate_flower",
+            "settings": {
+                "foreground": "#569cd6",
+            }
+        },
+        {
+            "scope": "entity.variable.parameter.mate_flower",
+            "settings": {
+                "foreground": "#72f1b8",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "entity.name.tag.mate_flower",
+            "settings": {
+                "foreground": "#fede5d",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}

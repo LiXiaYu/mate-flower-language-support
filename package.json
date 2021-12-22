@@ -1,0 +1,44 @@
+{
+    "name": "mate-flower-language-support",
+    "displayName": "mate flower language support",
+    "description": "mate flower language support for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mate_flower_lib",
+            "aliases": ["mate flower library", "mate_flower_library"],
+            "extensions": [".matelib"],
+            "configuration": "./language-configuration-lib.json"
+        },
+        {
+            "id": "mate_flower",
+            "aliases": ["mate flower", "mate_flower"],
+            "extensions": [".mate"],
+            "configuration": "./language-configuration.json"
+        }],
+        "themes": [
+            {
+                "id": "mate_flower_lib_theme",
+                "label": "mate flower library theme",
+                "uiTheme": "vs-dark",
+                "path": "./colorthemes/mate_flower_lib-color-theme.json"
+            }
+        ],
+        "grammars": [{
+            "language": "mate_flower_lib",
+            "scopeName": "source.mate_flower_lib",
+            "path": "./syntaxes/mate_flower_lib.tmLanguage.json"
+        },
+        {
+            "language": "mate_flower",
+            "scopeName": "source.mate_flower",
+            "path": "./syntaxes/mate_flower.tmLanguage.json"           
+        }]
+    }
+}
