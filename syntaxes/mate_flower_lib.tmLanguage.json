@@ -3,10 +3,10 @@
 	"name": "mate flower library",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#Block"
 		},
 		{
-			"include": "#strings"
+			"include": "#keywords"
 		},
 		{
 			"include": "#MateSymbol"
@@ -16,22 +16,19 @@
 		}
 	],
 	"repository": {
+		"Block": {
+			"patterns": [
+				{
+					"name": "keyword.operator.mate_flower",
+					"match": "(@\\$|\\$@)"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.mate_flower",
-				"match": "(@\\$|\\$@|@)"
+				"match": "@"
 			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.mate_flower",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.mate_flower",
-					"match": "\\\\."
-				}
-			]
 		},
 		"MateSymbol": {
 			"patterns": [{

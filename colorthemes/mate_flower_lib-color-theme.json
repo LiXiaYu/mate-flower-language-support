@@ -9,6 +9,12 @@
             }
         },
         {
+            "scope": "keyword.operator.mate_flower",
+            "settings": {
+                "foreground": "#e674cd",
+            }
+        },
+        {
             "scope": "entity.variable.parameter.mate_flower",
             "settings": {
                 "foreground": "#72f1b8",
