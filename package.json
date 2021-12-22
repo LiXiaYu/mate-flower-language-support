@@ -6,6 +6,10 @@
     "engines": {
         "vscode": "^1.63.0"
     },
+    "icon": "images/icon.png",
+    "repository": {
+        "url": "https://github.com/LiXiaYu/mate-flower-language-support"
+    },
     "categories": [
         "Programming Languages"
     ],
