@@ -19,26 +19,26 @@
 		"Block": {
 			"patterns": [
 				{
-					"name": "keyword.operator.mate_flower",
+					"name": "keyword.operator.mate_flower_lib",
 					"match": "(@\\$|\\$@)"
 				}
 			]
 		},
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.mate_flower",
+				"name": "keyword.control.mate_flower_lib",
 				"match": "@"
 			}]
 		},
 		"MateSymbol": {
 			"patterns": [{
-				"name": "entity.name.tag.mate_flower",
+				"name": "entity.name.tag.mate_flower_lib",
 				"match": "``[^@|`|$|\\t| |\\r|\\n]+"
 			}]
 		},
 		"MateName": {
 			"patterns": [{
-				"name": "entity.variable.parameter.mate_flower",
+				"name": "entity.variable.parameter.mate_flower_lib",
 				"match": "`[^@|`|$|\\t| |\\r|\\n]+"
 			}]
 		}

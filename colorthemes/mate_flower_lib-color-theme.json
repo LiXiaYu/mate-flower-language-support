@@ -1,28 +1,27 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "semanticHighlighting": true,
     "tokenColors":[
         {
-            "scope": "keyword.control.mate_flower",
+            "scope": "keyword.control.mate_flower_lib",
             "settings": {
                 "foreground": "#569cd6",
             }
         },
         {
-            "scope": "keyword.operator.mate_flower",
+            "scope": "keyword.operator.mate_flower_lib",
             "settings": {
                 "foreground": "#e674cd",
             }
         },
         {
-            "scope": "entity.variable.parameter.mate_flower",
+            "scope": "entity.variable.parameter.mate_flower_lib",
             "settings": {
                 "foreground": "#72f1b8",
                 "fontStyle": "italic"
             }
         },
         {
-            "scope": "entity.name.tag.mate_flower",
+            "scope": "entity.name.tag.mate_flower_lib",
             "settings": {
                 "foreground": "#fede5d",
                 "fontStyle": "bold"
