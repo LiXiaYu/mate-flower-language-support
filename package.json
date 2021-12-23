@@ -13,7 +13,29 @@
     "categories": [
         "Programming Languages"
     ],
+    "activationEvents": [
+		"onCommand:mona.runmeta"
+	],
+	"main": "./dist/extension.js",
     "contributes": {
+        "configuration":[
+            {
+                "title": "Mate Flower",
+                "properties": {
+                    "mate-flower-language-support.option1.path":{
+                        "type":"string",
+                        "default":null,
+                        "description": "Set the location of mate executable file."
+                    }
+                }
+            }
+        ],
+        "commands":[
+			{
+				"command": "mona.runmeta",
+				"title": "Run Meta"
+			}
+        ],
         "languages": [{
             "id": "mate_flower_lib",
             "aliases": ["mate flower library", "mate_flower_library"],

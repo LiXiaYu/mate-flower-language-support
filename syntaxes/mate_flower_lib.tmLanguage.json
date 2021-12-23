@@ -25,22 +25,28 @@
 			]
 		},
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.mate_flower_lib",
-				"match": "@"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.mate_flower_lib",
+					"match": "@"
+				}
+			]
 		},
 		"MateSymbol": {
-			"patterns": [{
-				"name": "entity.name.tag.mate_flower_lib",
-				"match": "``[^@|`|$|\\t| |\\r|\\n]+"
-			}]
+			"patterns": [
+				{
+					"name": "entity.name.tag.mate_flower_lib",
+					"match": "``[^@|`|$|\\t| |\\r|\\n]+"
+				}
+			]
 		},
 		"MateName": {
-			"patterns": [{
-				"name": "entity.variable.parameter.mate_flower_lib",
-				"match": "`[^@|`|$|\\t| |\\r|\\n]+"
-			}]
+			"patterns": [
+				{
+					"name": "entity.variable.parameter.mate_flower_lib",
+					"match": "`[^@|`|$|\\t| |\\r|\\n]+"
+				}
+			]
 		}
 	},
 	"scopeName": "source.mate_flower_lib"

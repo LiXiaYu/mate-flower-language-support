@@ -1,5 +1,5 @@
 {
-    "$schema": "vscode://schemas/color-theme",
+    //"$schema": "vscode://schemas/color-theme",
     "tokenColors":[
         {
             "scope": "keyword.control.mate_flower_lib",
