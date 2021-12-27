@@ -10,8 +10,8 @@ export function activate(context: vscode.ExtensionContext) {
     // This line of code will only be executed once when your extension is activated
     console.log('Congratulations, your extension "mate-flower-language-support" is now active!');
 
-    context.subscriptions.push(vscode.commands.registerCommand('mona.runmeta', () => {
-        vscode.window.showInformationMessage('Run Meta 🌸');
+    context.subscriptions.push(vscode.commands.registerCommand('mona.runmate', () => {
+        vscode.window.showInformationMessage('Run Mate🌸');
     }));
 
 }
