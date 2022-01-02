@@ -82,7 +82,7 @@
         "pretest": "npm run compile-tests && npm run compile && npm run lint",
         "lint": "eslint src --ext ts",
         "test": "node ./out/test/runTest.js",
-        "postinstall": " cd server && npm install && cd .."
+        "postinstall": "npm install && cd server && npm install && cd .."
     },
     "devDependencies": {
         "@types/glob": "^7.1.4",
@@ -101,8 +101,6 @@
         "webpack-cli": "^4.8.0"
     },
     "dependencies": {
-        "vscode-languageclient": "^7.0.0",
-        "vscode-languageserver": "^7.0.0",
-        "vscode-languageserver-textdocument": "^1.0.3"
+        "vscode-languageclient": "^7.0.0"
     }
 }
