@@ -43,7 +43,7 @@
 		"MateName": {
 			"patterns": [
 				{
-					"name": "entity.variable.parameter.mate_flower_lib",
+					"name": "entity.variable.mate_flower_lib",
 					"match": "`[^@|`|$|\\t| |\\r|\\n]+"
 				}
 			]

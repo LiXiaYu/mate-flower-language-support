@@ -4,7 +4,7 @@ mate🌸 language support
 
 ## Features
 
-A language support for mate🌸
+A language support for mate🌸(https://github.com/LiXiaYu/mate2d)
 
 Highlight for .matelib
 
